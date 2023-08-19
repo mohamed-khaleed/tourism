@@ -1,0 +1,219 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #1e5f74;
+  color: #fcddb0;
+  font-family: "Josefin Sans", sans-serif;
+}
+a {
+  color: #fcddb0 !important;
+  text-decoration: none;
+}
+.nav-input {
+  background-color: #fffad7;
+}
+.btn {
+  border-color: #579bb1;
+  background-color: #fcddb0;
+  color: #579bb1;
+}
+.btn:hover {
+  border-color: #fcddb0;
+  background-color: #579bb1;
+  color: #fcddb0;
+}
+::placeholder {
+  color: #579bb1 !important;
+}
+.navbar {
+  border-color: #579bb1 !important;
+}
+.carousel-caption {
+  background-color: rgba(87, 155, 177, 0.7);
+}
+.bg-dark-blue-color-light {
+  background-color: #579bb1;
+  color: #fcddb0;
+}
+.bg-light-color-dark-blue {
+  background-color: #fffad7;
+  color: #579bb1;
+}
+.bg-dark-light-color-dark-blue {
+  background-color: #fcddb0;
+  color: #579bb1;
+}
+textarea {
+  background-color: #fcddb0 !important;
+}
+.accordion-header button {
+  background-color: #579bb1 !important;
+  color: #fcddb0 !important;
+}
+.first-fixed-photo {
+  height: 40vh;
+  width: 100%;
+  background-image: url(../images/pexels-spencer-davis-4388159.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.second-fixed-photo {
+  height: 40vh;
+  width: 100%;
+  background-image: url(../images/aswan/img3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.card {
+  border-radius: 5px !important;
+}
+.btn-right {
+  position: absolute;
+  top: 10px;
+  right: 8px;
+}
+
+#popular-destination-cards img {
+  height: 350px;
+}
+.card-background {
+  height: 70vh;
+  background-image: url(../images/pexels-lamar-belina-5653999.jpg);
+  background-size: cover;
+}
+.d:hover {
+  transform: scaleY(0.9);
+}
+.d:hover .layer {
+  background: linear-gradient(rgba(252, 218, 183, 0.8), rgba(0, 0, 0, 0.8));
+  transition: all;
+}
+.card-end {
+  position: absolute;
+  bottom: 3px;
+  left: 20px;
+}
+.card-photo {
+  background-image: url(../images/pexels-lamar-belina-5653999.jpg);
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.card-photo-second {
+  background-image: url(../images/pexels-david-radomysler-12421133.jpg);
+}
+.card-photo-third {
+  background-image: url(../images/pexels-trarete-8536844.jpg);
+}
+.layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    rgba(252, 218, 183, 0.8),
+    rgba(87, 155, 177, 0.8)
+  );
+}
+#egypt-news img {
+  width: 100%;
+  height: 400px;
+  /* clip-path: polygon(-6% 1%, 88% -9%, 72% 104%, 0% 100%); */
+}
+
+.line {
+  height: 5px;
+  width: 10%;
+  background-color: #fcddb0;
+  transition: 1s;
+}
+.line-hover:hover .line{
+  width: 20%;
+}
+
+.dark-blue-color {
+  color: #579bb1;
+}
+footer {
+  background-color: #1d2d50;
+}
+footer ul li {
+  list-style: none;
+}
+.btn-bottom-right {
+  position: absolute;
+  bottom: 13px;
+  left: 15px;
+}
+
+.box-shadow-color {
+  box-shadow: 0 0 50px #fcdab7;
+}
+.linear-color {
+  background: linear-gradient(#fcdab7, #579bb1);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+aside {
+  position: fixed;
+  top: 30%;
+  right: 0;
+  
+  
+}
+.icon:hover  {
+  color: #579bb1;
+}
+
+.layer-animation::after {
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  transition: 1s;
+}
+.layer-animation:hover::after {
+  width: 100%;
+  height: 100%;
+}
+
+.layer-animation::before {
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom:  0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  transition: 1s;
+  z-index: 2;
+}
+.layer-animation:hover::before {
+  width: 100%;
+  height: 100%;
+}
+.layer-animation:hover {
+  transition: 1s;
+  border: none;
+}
+#join-us img:hover
+{
+  box-shadow: 0 0 50px #fcdab7;
+}
+
+/* .modal-backdrop{
+  display: none;
+} */
